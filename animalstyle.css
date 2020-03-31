@@ -1,14 +1,58 @@
-//*header, footer, text styling*//
+//*text styling for each section*//
 
+.default {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
-.header {
 
+.header { 
+    background: rgba(forestgreen 20%)
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    background: rgba(forestgreen 20%)
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.topParagraph {
+    text-align: center;
+    line-height: 125%;
+    font-size: 16px;
+}
+
+.article {
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.aside {
+    margin-left: 70%;
+    margin-right: 10px;
+    border: solid black 5px;
 }
 
 h1 {
-
+    font-size: 24px;
+    color: darkslategray;
 }
 
 h2 {
+    font-size: 18px;
+    color: darkslategray;
 
 }
+
+//*image styling*/
+
+.img {
+    float: left;
+    padding: 20px;
+
+}
+
